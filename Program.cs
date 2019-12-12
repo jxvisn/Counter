@@ -13,7 +13,6 @@ namespace ConsoleApp2
             // Check 1 to 100 and print result
             for (int i = 1; i < 101; i++) // Loop through 1 to 100
             {
-                // We need to print the number only when it is divisible by 3 with no remainder
                 var divisibleByThree = i % 3; //Divide each number by three
                 if (divisibleByThree == 0) //If the divded number has no remainder continue
                 {
@@ -21,8 +20,7 @@ namespace ConsoleApp2
                     count++; // Add to count
                 }
             }
-            // Display the count
-            Console.WriteLine("The count is: " + count);
+            Console.WriteLine("The count is: " + count); // Display the count
         }
     }
 }
